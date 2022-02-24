@@ -3,6 +3,8 @@ import Welcome from './components/Welcome';
 import Tools from './components/Tools'
 import Elements from './components/Elements';
 import Features from './components/Features';
+import Responsive from './components/Responsive';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Tools />
       <Elements />
       <Features />
+      <Responsive />
 
 
 
