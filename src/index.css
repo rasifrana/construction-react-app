@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: rgb(244, 244, 244);
+}
+
 .blue-glassmorphism {
   background: rgb(39, 51, 89, 0.4);
   border-radius: 16px;

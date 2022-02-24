@@ -9,7 +9,7 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
     const NavItem = ({ title, classItem }) => {
         return (
-            <li className={'mx-1 cursor-pointer py-1 font-light px-2 rounded hover:text-white transition-all hover:bg-pink-800 ${classProp}'}>{title}</li>
+            <li className={'mx-1 cursor-pointer py-1 font-light px-2 rounded hover:text-white transition-all hover:bg-blue-700 ${classProp}'}>{title}</li>
         );
     }
 
