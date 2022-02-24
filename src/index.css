@@ -2,16 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/* background-image: linear-gradient(180deg,#ffffff 19%,#b3afff 100%)!important; */
+
 
 body {
-  background-color: rgb(244, 244, 244);
+  background-color: #f4f4f4;
 }
 
 .wrapper {
   max-width: 1200px !important;
   margin: 0 auto;
   
+}
+
+.gradient-bg {
+  background-image: linear-gradient(180deg,#f4f4f4 19%,#b3afff 100%)!important;
 }
 
 .blue-glassmorphism {
