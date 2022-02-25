@@ -4,6 +4,8 @@ import Tools from './components/Tools'
 import Elements from './components/Elements';
 import Features from './components/Features';
 import Responsive from './components/Responsive';
+import Pricing from './components/Pricing';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <Elements />
       <Features />
       <Responsive />
+      <Pricing />
+      <Footer />
 
 
 

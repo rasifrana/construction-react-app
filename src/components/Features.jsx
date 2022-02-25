@@ -57,8 +57,8 @@ const Features = () => {
             </div>
             <div className="feature-box-container grid grid-cols-2 md:grid-cols-4 lg:w-3/4 mx-auto gap-3 py-16">
                 {
-                    boxData.map((item) => (
-                        <Box imgSrc={item.img} header={item.heading} />
+                    boxData.map((item, index) => (
+                        <Box key={index} imgSrc={item.img} header={item.heading} />
                     ))
                 }
 

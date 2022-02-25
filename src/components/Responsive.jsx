@@ -3,7 +3,7 @@
 const Responsive = () => {
     return (
 
-        <section className="responsive-section mt-20 bg-cover bg-center">
+        <section className="responsive-section mt-20 bg-cover">
             <div className="element-container wrapper ">
                 <div className="element-content-container text-center md:text-left p-4 md:w-1/2">
                     <p className=" uppercase text-orange-500 mb-4">PRODUCTS</p>
