@@ -4,9 +4,12 @@
 
 
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f4f4f4;
-  scroll-behavior: smooth;
 }
 
 .wrapper {
