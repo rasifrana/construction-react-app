@@ -9,11 +9,11 @@ const Welcome = () => {
 
     return (
         <section className="w-full bg-cover bg-center" style={{ backgroundImage: `url(${img})`, height: '600px' }}>
-            <div className="layer h-full bg-gradient-to-b from-blue-800 px-4">
-                <div className="lg:w-3/4 mx-auto h-full text-white text-center py-16 md:pt-40">
+            <div className="layer h-full bg-gradient-to-b from-blue-800">
+                <div className="lg:w-3/4 mx-auto h-full text-white text-center py-4 md:py-16 pt-40">
 
 
-                    <h1 className=' font-bold mt-3 text-4xl md:text-5xl ' >We create architecture, landscapes, interiors</h1>
+                    <h1 className=' font-bold mt-3 text-5xl ' >We create architecture, landscapes, interiors</h1>
                     <p className='py-8  lg:w-1/2 mx-auto'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores numquam perferendis tempore totam deleniti quisquam magnam! Qui amet tempora nemo.</p>
 
                     <a href=" " className='py-3 px-16 mt-4 inline-block bg-blue-700 rounded-xl shadow-2xl' >Buy Pro Now</a>
