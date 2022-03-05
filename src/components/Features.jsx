@@ -50,22 +50,26 @@ const Features = () => {
 
 
     return (
-        <section className="features-section py-12 wrapper">
-            <div className="feature-heading text-center">
-                <p className=" uppercase text-orange-500 mb-4">PRODUCTS</p>
-                <h2 className=" text-2xl font-bold">What You Get</h2>
-            </div>
-            <div className="feature-box-container grid grid-cols-2 md:grid-cols-4 lg:w-3/4 mx-auto gap-3 py-16">
-                {
-                    boxData.map((item, index) => (
-                        <Box key={index} imgSrc={item.img} header={item.heading} />
-                    ))
-                }
+        <section className="features-section py-12  bg-gradient-to-b from-[#d2d0ff]">
+            <div className="wrapper">
+                <div className="feature-heading text-center">
+                    <p className=" uppercase text-orange-500 mb-4">FEATURES</p>
+                    <h2 className=" text-2xl font-bold">What You Get</h2>
+                </div>
+                <div className="feature-box-container grid grid-cols-2 md:grid-cols-4 lg:w-3/4 mx-auto gap-3 md:py-16">
+                    {
+                        boxData.map((item, index) => (
+                            <Box key={index} imgSrc={item.img} header={item.heading} />
+                        ))
+                    }
+
+                </div>
+                <div className="btn text-center my-4">
+                    <a href=" " className='py-3 px-16 mt-4 inline-block bg-blue-700 text-white rounded-2xl shadow-2xl' >Get Started</a>
+                </div>
 
             </div>
-            <div className="btn text-center my-4">
-                <a href=" " className='py-3 px-16 mt-4 inline-block bg-blue-700 text-white rounded-2xl shadow-2xl' >Get Started</a>
-            </div>
+
 
         </section>
     );

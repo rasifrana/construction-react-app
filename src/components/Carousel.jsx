@@ -23,8 +23,16 @@ const CarouselComp = () => {
                     </div>)}
                 </Carousel>
             </div>
-            <div className="testimonial hidden lg:block bg-white rounded-xl shadow-2xl w-1/2 absolute right-5 -bottom-10">
+            <div className="testimonial hidden lg:flex justify-center  px-5 items-center bg-white rounded-xl shadow-2xl w-1/2 absolute right-5 -bottom-10">
                 {/* <img src='https://www.elegantthemes.com/layouts/wp-content/uploads/2018/11/software-23.png' alt="" className=" object-cover w-3/4" /> */}
+                <div className="testimonial-img w-1/5">
+                    <img className=' rounded-full' src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/03/portrait-square-04.jpg" alt="" />
+
+                </div>
+                <div className="test-content ml-6">
+                    <p className=" uppercase text-orange-500 mb-4">“I GOT MY SITE UP AND RUNNING IN LESS THAN A DAY!”</p>
+                    <p className="">Choose A Plan That Works For You</p>
+                </div>
 
             </div>
 

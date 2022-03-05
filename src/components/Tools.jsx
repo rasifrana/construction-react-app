@@ -33,7 +33,7 @@ const Tools = () => {
 
 
     return (
-        <section className="py-40 wrapper p-4">
+        <section className="md:py-40 wrapper p-4 ">
             <div className="text-center my-4 pb-10">
                 <p className=" uppercase text-orange-500 mb-4">PRODUCTS</p>
                 <h2 className=" text-2xl font-bold">We Build Tools For the Web</h2>
