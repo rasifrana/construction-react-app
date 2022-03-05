@@ -4,7 +4,7 @@
 
 
 
-* {
+html {
   scroll-behavior: smooth;
 }
 
@@ -33,8 +33,9 @@ body {
 }
 
 .responsive-section {
+  padding: 80px 0;
   width: 100%;
-  height: 700px;
+  /* height: 700px; */
   background-image: url('https://www.elegantthemes.com/layouts/wp-content/uploads/2018/11/software-22.png');
   /* background-position: top right; */
 }
@@ -42,4 +43,58 @@ body {
 footer.footer {
   background-image: url('https://www.elegantthemes.com/layouts/wp-content/uploads/2018/11/software-10.png');
   /* height: 600px; */
+}
+
+
+.carousel {
+  height: 500px;
+  background-color: aqua;
+  width: 100%;
+  
+}
+
+.carousels {
+max-width: 1100px;
+ 
+}
+
+.carousel-bg {
+  background-image: linear-gradient(148deg,#d6545b 19%,#ff915e 100%);
+    background-color: rgba(239,103,40,0.96);
+}
+
+.rec.rec-arrow {
+  visibility: visible;
+}
+
+.rec-carousel {
+  position: relative;
+}
+
+.rec.rec-arrow-right {
+ /* display: none; */
+ position: absolute;
+  right: 16px;
+ z-index: 100;
+}
+
+.rec.rec-arrow-left {
+  /* display: none; */
+  position: absolute;
+  left: 16px;
+  z-index: 100;
+ }
+
+ .testimonial {
+   height: 200px;
+ }
+
+/* .tools {
+  clip-path: polygon(0 0, 100% 0, 100% 66%, 0 100%)!;
+} */
+
+@media only screen and (max-width: 600px) {
+  .rec.rec-arrow {
+    visibility: hidden;
+  }
 }

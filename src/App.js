@@ -6,7 +6,7 @@ import Features from './components/Features';
 import Responsive from './components/Responsive';
 import Pricing from './components/Pricing';
 import Footer from './components/Footer';
-
+import CarouselComp from './components/Carousel';
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
       <Features />
       <Responsive />
       <Pricing />
+      <CarouselComp />
       <Footer />
 
 
