@@ -1,4 +1,11 @@
-
+import box1 from '../images/ft-1.png'
+import box2 from '../images/ft-2.png'
+import box3 from '../images/ft-3.png'
+import box4 from '../images/ft-4.png'
+import box5 from '../images/ft-5.png'
+import box6 from '../images/ft-6.png'
+import box7 from '../images/ft-7.png'
+import box8 from '../images/ft-8.png'
 
 const Features = () => {
 
@@ -13,35 +20,35 @@ const Features = () => {
 
     const boxData = [
         {
-            img: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2018/11/software-25.png',
+            img: box1,
             heading: 'Responsive Themes'
         },
         {
-            img: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2018/11/software-25.png',
+            img: box2,
             heading: 'Responsive Themes'
         },
         {
-            img: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2018/11/software-25.png',
+            img: box3,
             heading: 'Responsive Themes'
         },
         {
-            img: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2018/11/software-25.png',
+            img: box4,
             heading: 'Responsive Themes'
         },
         {
-            img: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2018/11/software-25.png',
+            img: box5,
             heading: 'Responsive Themes'
         },
         {
-            img: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2018/11/software-25.png',
+            img: box6,
             heading: 'Responsive Themes'
         },
         {
-            img: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2018/11/software-25.png',
+            img: box7,
             heading: 'Responsive Themes'
         },
         {
-            img: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2018/11/software-25.png',
+            img: box8,
             heading: 'Responsive Themes'
         }
 
@@ -50,7 +57,7 @@ const Features = () => {
 
 
     return (
-        <section className="features-section py-12  bg-gradient-to-b from-[#d2d0ff]">
+        <section className="features-section py-16  bg-gradient-to-b from-[#d2d0ff]">
             <div className="wrapper">
                 <div className="feature-heading text-center">
                     <p className=" uppercase text-orange-500 mb-4">FEATURES</p>
