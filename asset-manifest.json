@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/web-react-app/static/css/main.23f89b06.css",
-    "main.js": "/web-react-app/static/js/main.d300db24.js",
+    "main.css": "/web-react-app/static/css/main.d6708f70.css",
+    "main.js": "/web-react-app/static/js/main.1afec235.js",
     "static/media/bg.png": "/web-react-app/static/media/bg.9d798032628fc2662a39.png",
     "static/media/tools-4.png": "/web-react-app/static/media/tools-4.8f547ac204280a9a2fef.png",
     "static/media/tools-1.png": "/web-react-app/static/media/tools-1.d8deac117300a43d9437.png",
@@ -9,11 +9,11 @@
     "static/media/tools-3.png": "/web-react-app/static/media/tools-3.6350fe1bdd9168f62fbb.png",
     "static/media/elements.png": "/web-react-app/static/media/elements.2cc0f0680969f0b59e0e.png",
     "index.html": "/web-react-app/index.html",
-    "main.23f89b06.css.map": "/web-react-app/static/css/main.23f89b06.css.map",
-    "main.d300db24.js.map": "/web-react-app/static/js/main.d300db24.js.map"
+    "main.d6708f70.css.map": "/web-react-app/static/css/main.d6708f70.css.map",
+    "main.1afec235.js.map": "/web-react-app/static/js/main.1afec235.js.map"
   },
   "entrypoints": [
-    "static/css/main.23f89b06.css",
-    "static/js/main.d300db24.js"
+    "static/css/main.d6708f70.css",
+    "static/js/main.1afec235.js"
   ]
 }
