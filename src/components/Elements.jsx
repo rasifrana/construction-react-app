@@ -3,7 +3,7 @@ import elementImg from '../images/elements.png';
 const Elements = () => {
     return (
 
-        <section className="element-section gradient-bg mt-6">
+        <section id='elements' className="element-section gradient-bg mt-6">
             <div className="element-container wrapper grid grid-cols-1 md:grid-cols-2">
                 <div className="element-img-container grid place-items-center">
                     <img src={elementImg} alt="" className=" object-cover w-2/4 md:w-3/4" />

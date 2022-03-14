@@ -11,7 +11,7 @@ const CarouselComp = () => {
     ];
 
     return (
-        <div className="wrapper py-20 relative mb-20">
+        <div className="wrapper py-20 relative mb-20" id='contact'>
             <div className='carousels w-full md:w-3/4'>
                 <Carousel pagination={false} enableAutoPlay autoPlaySpeed={3500}
                     transitionMs={700}>

@@ -2,7 +2,7 @@
 
 const Pricing = () => {
     return (
-        <section className="pricing">
+        <section id="pricing" className="pricing">
             <div className="wrapper px-2 py-24">
                 <div className="price-content text-center md:w-3/4 mx-auto pb-10">
                     <p className=" uppercase text-orange-500 mb-4">PRICING</p>
