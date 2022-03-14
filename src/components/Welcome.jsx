@@ -9,15 +9,15 @@ const Welcome = () => {
     // };
 
     return (
-        <section className="w-full bg-cover bg-center" style={{ backgroundImage: `url(${img})`, height: '600px' }}>
-            <div className="layer h-full bg-gradient-to-b  from-blue-800">
+        <section className="w-full bg-cover bg-center" style={{ backgroundImage: `url(${img})`, height: '600px' }} id='home'>
+            <div className="layer px-2 h-full bg-gradient-to-b  from-blue-800">
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 6 }} className="lg:w-3/4 mx-auto h-full flex justify-center items-center flex-col text-white text-center py-4 md:py-16 sm:pt-40 md:pt-60">
 
 
-                    <motion.h1 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }} className=' font-bold mt-3 text-5xl ' >Products that Empower the Business with Latest Technology</motion.h1>
+                    <motion.h1 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }} className=' font-bold mt-3 text-4xl sm:text-5xl ' >Products that Empower the Businesses with Latest Technology</motion.h1>
                     <p className='py-8  lg:w-1/2 mx-auto'>We specialise in web design and online marketing services. Having built more than 1200 websites for companies of all sizes across the Europe.</p>
 
-                    <a href=" " className='py-3 px-16 mt-4 inline-block bg-blue-700 rounded-xl shadow-2xl' >Buy Pro Now</a>
+                    <a href="#pricing" className='py-3 px-16 mt-4 inline-block bg-blue-700 rounded-xl shadow-2xl' >Get Prices</a>
 
                     {/* <div className=" flex-1 flex justify-center items-center">
                     <div className="image-container shadow-2xl w-96 h-96 p-4 bg-white rounded-full">

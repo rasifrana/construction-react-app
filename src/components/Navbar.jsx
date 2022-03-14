@@ -16,15 +16,15 @@ const Navbar = () => {
     return (
         <nav className="sticky top-0 bg-slate-100 ">
             <div className='flex justify-between items-center p-4 container mx-auto'>
-                <div className="logo">WEBLY</div>
+                <div className="logo">
+                    <a href='#home'>WEBLY </a>
+                </div>
                 <div className="links">
                     <ul className="hidden md:flex justify-between items-center">
                         <NavItem title={'Products'} id={'#products'} />
                         <NavItem title={'Elements'} id={'#elements'} />
                         <NavItem title={'Pricing'} id={'#pricing'} />
                         <NavItem title={'Contact'} id={'#contact'} />
-
-
                     </ul>
                     <div>
                         {toggle ? <AiOutlineClose className='cursor-pointer md:hidden' onClick={() => setToggle(false)} /> :
