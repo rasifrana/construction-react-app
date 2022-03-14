@@ -10,8 +10,8 @@ const Elements = () => {
                 </div>
                 <div className="element-content-container p-4 text-center md:text-left">
                     <p className=" uppercase text-orange-500 mb-4">ELEMENTS</p>
-                    <h2 className=" text-2xl font-bold">We Build Tools For the Web</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, facere quibusdam qui obcaecati, atque quia odit, nihil error nemo nam doloremque deleniti labore quisquam iste illo totam dolor vel aperiam.</p>
+                    <h2 className=" text-2xl font-bold mb-3">Everything You Need With Just One Tool</h2>
+                    <p>Your beautiful website is incomplete without the right copy. Our in-house copywriters will craft quality copy that will engage visitors and propel them into action. In fact, content is an important part of your online strategy. Whether you want to build links or improve search engine rankings, our content writers will create high quality content that will enlighten, engage and convert.</p>
                 </div>
             </div>
         </section>

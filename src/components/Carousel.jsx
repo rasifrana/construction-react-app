@@ -5,9 +5,9 @@ const CarouselComp = () => {
 
 
     const items = [
-        { id: 1, title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit dolor sit amet consectetur adipisicing elit' },
-        { id: 2, title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit dolor sit amet consectetur adipisicing elit' },
-        { id: 3, title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit dolor sit amet consectetur adipisicing elit' }
+        { id: 1, title: 'I personally love our new website, its fluid, modern and clean lines are a testament to Torc’s ability to realise a clients vision.we did not want another site based on WordPress due to its limitations. Torc successfully built and designed our website despite significant challenges to overcome...                        ' },
+        { id: 2, title: 'Finding the right website developer is not easy.we were looking for a company who would give us ideas and suggestions on how to improve our online business! Torc Web Design offered the best all round response to what we were looking for!.features to add, and kept in mind how important...' },
+        { id: 3, title: 'After discussing our project requirements with various companies, we decided to work with Torc Web Design to carry out a full bespoke redesign for our website, and I have to say it was a positive experience throughout. Torc are a very reliable, highly efficient and creative company that have transformed my ideas into a seamless site.' }
     ];
 
     return (
@@ -15,7 +15,7 @@ const CarouselComp = () => {
             <div className='carousels w-full md:w-3/4'>
                 <Carousel pagination={false} enableAutoPlay autoPlaySpeed={3500}
                     transitionMs={700}>
-                    {items.map(item => <div className='carousel rounded-lg carousel-bg flex justify-center items-center text-white font-semi-bold text-2xl shadow-2xl' key={item.id}>
+                    {items.map(item => <div className='carousel rounded-lg carousel-bg flex justify-center items-center text-white font-semi-bold md:text-2xl shadow-2xl' key={item.id}>
 
 
                         <p className='pl-5 md:px-20'>{item.title}</p>

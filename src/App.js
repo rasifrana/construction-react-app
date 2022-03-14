@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar';
 import Welcome from './components/Welcome';
-import Tools from './components/Tools'
+import Products from './components/Products'
 import Elements from './components/Elements';
 import Features from './components/Features';
 import Responsive from './components/Responsive';
@@ -14,7 +14,7 @@ function App() {
 
       <Navbar />
       <Welcome />
-      <Tools />
+      <Products />
       <Elements />
       <Features />
       <Responsive />

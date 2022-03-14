@@ -13,8 +13,8 @@ const Welcome = () => {
                 <div className="lg:w-3/4 mx-auto h-full flex justify-center items-center flex-col text-white text-center py-4 md:py-16 sm:pt-40 md:pt-60">
 
 
-                    <h1 className=' font-bold mt-3 text-5xl ' >We create architecture, landscapes, interiors</h1>
-                    <p className='py-8  lg:w-1/2 mx-auto'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores numquam perferendis tempore totam deleniti quisquam magnam! Qui amet tempora nemo.</p>
+                    <h1 className=' font-bold mt-3 text-5xl ' >Products that Empower the Business with Latest Technology</h1>
+                    <p className='py-8  lg:w-1/2 mx-auto'>We specialise in web design and online marketing services. Having built more than 1200 websites for companies of all sizes across the Europe.</p>
 
                     <a href=" " className='py-3 px-16 mt-4 inline-block bg-blue-700 rounded-xl shadow-2xl' >Buy Pro Now</a>
 

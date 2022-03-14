@@ -20,17 +20,17 @@ const Pricing = () => {
                         </div>
                         <div className="offers">
                             <ul>
-                                <li className="py-2"> Lorem ipsum dolor sit. </li>
-                                <li className="py-2"> Lorem ipsum dolor sit. </li>
-                                <li className="py-2"> Lorem ipsum dolor sit. </li>
-                                <li className="py-2"> Lorem ipsum dolor sit. </li>
-                                <li className="py-2"> Lorem ipsum dolor sit. </li>
+                                <li className="py-2"> Basic Features </li>
+                                <li className="py-2"> Basic SEO Features </li>
+                                <li className="py-2"> Subscribers Email </li>
+                                <li className="py-2"> Free Hosting option </li>
+                                <li className="py-2"> Limited Portal Access. </li>
 
                             </ul>
                         </div>
                     </div>
                     <div className="price-box text-center py-8 rounded-xl shadow-2xl md:scale-110">
-                        <p className="mb-8">single Site</p>
+                        <p className="mb-8">Single Site</p>
                         <div className="price mb-10 flex justify-center">
                             <span className=" text-slate-400 ">$</span>
                             <span className=" font-extrabold text-6xl text-blue-700">85</span>
@@ -38,11 +38,11 @@ const Pricing = () => {
                         </div>
                         <div className="offers">
                             <ul>
-                                <li className="py-2"> Lorem ipsum dolor sit. </li>
-                                <li className="py-2"> Lorem ipsum dolor sit. </li>
-                                <li className="py-2"> Lorem ipsum dolor sit. </li>
-                                <li className="py-2"> Lorem ipsum dolor sit. </li>
-                                <li className="py-2"> Lorem ipsum dolor sit. </li>
+                                <li className="py-2"> Medium Features </li>
+                                <li className="py-2"> Medium SEO Features </li>
+                                <li className="py-2"> Subscribers Email </li>
+                                <li className="py-2"> Free Hosting option </li>
+                                <li className="py-2"> Limited Portal Access. </li>
 
                             </ul>
                         </div>
@@ -56,11 +56,11 @@ const Pricing = () => {
                         </div>
                         <div className="offers">
                             <ul>
-                                <li className="py-2"> Lorem ipsum dolor sit. </li>
-                                <li className="py-2"> Lorem ipsum dolor sit. </li>
-                                <li className="py-2"> Lorem ipsum dolor sit. </li>
-                                <li className="py-2"> Lorem ipsum dolor sit. </li>
-                                <li className="py-2"> Lorem ipsum dolor sit. </li>
+                                <li className="py-2"> Advanced Features </li>
+                                <li className="py-2"> Advanced SEO Features </li>
+                                <li className="py-2"> Subscribers Email </li>
+                                <li className="py-2"> Free Hosting option </li>
+                                <li className="py-2"> Limited Portal Access. </li>
 
                             </ul>
                         </div>

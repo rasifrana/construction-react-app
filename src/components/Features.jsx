@@ -25,31 +25,31 @@ const Features = () => {
         },
         {
             img: box2,
-            heading: 'Responsive Themes'
+            heading: 'Full Customization'
         },
         {
             img: box3,
-            heading: 'Responsive Themes'
+            heading: 'World Class Support'
         },
         {
             img: box4,
-            heading: 'Responsive Themes'
+            heading: '3rd Party Support'
         },
         {
             img: box5,
-            heading: 'Responsive Themes'
+            heading: 'Update & Fixes'
         },
         {
             img: box6,
-            heading: 'Responsive Themes'
+            heading: 'User Roles'
         },
         {
             img: box7,
-            heading: 'Responsive Themes'
+            heading: 'Robust Documentation'
         },
         {
             img: box8,
-            heading: 'Responsive Themes'
+            heading: 'Built in Analytics'
         }
 
     ];

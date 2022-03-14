@@ -5,32 +5,32 @@ import tools4 from '../images/tools-4.png'
 
 import Card from "./Card";
 
-const Tools = () => {
+const Products = () => {
 
     const cardData = [
         {
             id: 1,
             img: tools1,
-            heading: 'website Themes',
-            para: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, quam!'
+            heading: 'Website Themes',
+            para: 'Webly can build a stunning website that will create the right impression on your visitors.'
         },
         {
             id: 2,
             img: tools2,
-            heading: 'website Themes',
-            para: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, quam!'
+            heading: 'Web Plugins',
+            para: 'You want to improve search engine rankings, we will create high quality content that will enlighten'
         },
         {
             id: 3,
             img: tools3,
-            heading: 'website Themes',
-            para: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, quam!'
+            heading: 'Lead Generation',
+            para: 'You are looking to generate leads online we can build a website that will deliver the results'
         },
         {
             id: 4,
             img: tools4,
-            heading: 'website Themes',
-            para: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, quam!'
+            heading: 'SEO',
+            para: ' Our SEO specialists will create a custom SEO strategy to help generate targeted traffic to your website'
         }
 
     ]
@@ -38,7 +38,7 @@ const Tools = () => {
 
 
     return (
-        <section className="md:py-40 py-24 wrapper p-4">
+        <section className="md:py-40 pt-24 wrapper p-4">
             <div className="text-center my-4 pb-10">
                 <p className=" uppercase text-orange-500 mb-4">PRODUCTS</p>
                 <h2 className=" text-2xl font-bold">We Build Tools For the Web</h2>
@@ -52,4 +52,4 @@ const Tools = () => {
     );
 }
 
-export default Tools;
+export default Products;
