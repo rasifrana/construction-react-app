@@ -1,4 +1,5 @@
 import img from '../images/bg.png';
+import { motion } from 'framer-motion';
 
 const Welcome = () => {
 
@@ -10,10 +11,10 @@ const Welcome = () => {
     return (
         <section className="w-full bg-cover bg-center" style={{ backgroundImage: `url(${img})`, height: '600px' }}>
             <div className="layer h-full bg-gradient-to-b  from-blue-800">
-                <div className="lg:w-3/4 mx-auto h-full flex justify-center items-center flex-col text-white text-center py-4 md:py-16 sm:pt-40 md:pt-60">
+                <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 6 }} className="lg:w-3/4 mx-auto h-full flex justify-center items-center flex-col text-white text-center py-4 md:py-16 sm:pt-40 md:pt-60">
 
 
-                    <h1 className=' font-bold mt-3 text-5xl ' >Products that Empower the Business with Latest Technology</h1>
+                    <motion.h1 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }} className=' font-bold mt-3 text-5xl ' >Products that Empower the Business with Latest Technology</motion.h1>
                     <p className='py-8  lg:w-1/2 mx-auto'>We specialise in web design and online marketing services. Having built more than 1200 websites for companies of all sizes across the Europe.</p>
 
                     <a href=" " className='py-3 px-16 mt-4 inline-block bg-blue-700 rounded-xl shadow-2xl' >Buy Pro Now</a>
@@ -23,7 +24,7 @@ const Welcome = () => {
                         <img className="w-full h-full object-cover rounded-full" src="https://images.unsplash.com/photo-1515263487990-61b07816b324?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80" alt="" />
                     </div>
                 </div> */}
-                </div>
+                </motion.div>
                 {/* <div className='flex flex-col md:flex-row mt-16'>
                     <div className='flex-1'></div>
                     <div className='flex-1 p-8'>

@@ -7,6 +7,7 @@ import Responsive from './components/Responsive';
 import Pricing from './components/Pricing';
 import Footer from './components/Footer';
 import CarouselComp from './components/Carousel';
+import { motion } from 'framer-motion';
 
 function App() {
   return (
